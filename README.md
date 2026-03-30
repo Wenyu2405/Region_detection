@@ -7,14 +7,23 @@
 ## 项目结构
 
 ├── main.py           # GUI 版本（PyQt5），支持 GPU 加速
+
 ├── CPUversion.py     # 命令行版本，强制使用 CPU 推理
+
 ├── trans.py          # 模型训练入口
+
 ├── config.yaml       # 运行时配置文件
+
 ├── configs/
+
 │   └── fusion.yaml   # 训练数据集配置
+
 ├── weights/
+
 │   └── yolov8s/
+
 │       └── best.onnx # 训练好的模型权重
+
 └── alerts/           # 告警截图自动保存目录
 
 
