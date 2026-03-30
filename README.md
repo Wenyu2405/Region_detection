@@ -37,12 +37,19 @@ pip install ultralytics opencv-python numpy PyQt5 torch onnxruntime
 ## 配置说明
 
 编辑 `config.yaml`：
+
 model: weights/yolov8s/best.onnx  # 模型路径（支持 .pt 和 .onnx）
+
 source: person_test1.mp4          # 输入源：视频路径 / 图片路径 / 摄像头ID（如 0）
+
 width: 1280                        # 显示窗口宽度
+
 height: 720                        # 显示窗口高度
+
 save: null                         # 结果保存路径，不保存填 null
+
 conf: 0.25                         # 置信度阈值
+
 alert_save_dir: alerts             # 告警截图保存目录
 
 
