@@ -1,0 +1,7 @@
+ultralytics>=8.0.0
+opencv-python>=4.7.0
+numpy>=1.23.0
+PyQt5>=5.15.0
+torch>=2.0.0
+onnxruntime>=1.15.0
+pyyaml>=6.0

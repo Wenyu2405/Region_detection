@@ -1,0 +1,15 @@
+model: /home/wenyu/final/weights/yolov8s/best.onnx
+
+# 输入源配置，图像路径、视频路径或摄像头ID(0,1,2...)
+source:  person_test1.mp4
+# 显示配置
+width: 1280
+height: 72
+
+# 保存结果的路径，不保存则为null
+save: null  
+
+# 检测配置，置信度阈值
+conf: 0.25  
+
+alert_save_dir: alerts  
